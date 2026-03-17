@@ -61,6 +61,17 @@ hr {
     font-size: 14px;
 }
 
+/* Ссылка на оплату */
+a {
+    color: gold;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* Адаптив */
 @media (max-width: 576px) {
     .name {
