@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Визитка</title>
 
+    <!-- Подключаем Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -28,26 +31,44 @@
 
                 <!-- Инфо -->
                 <div class="col-12 col-md-8 text-center text-md-start">
-                    <h2 class="name">Володимир Луговий</h2>
-                    <p class="position">ФОП / Послуги</p>
+                    <h2 class="name">Сергій Луговий</h2>
+                    <p class="position">Квіти від виробника</p>
 
                     <hr>
 
+                    <h4 class="position">Піони, самшит, тюльпани</h4>
+
                     <p>📞 <a href="tel:0638078898">0638078898</a></p>
-                    <!-- <p>📍 г. Днепр</p> -->
-                    <p>✉️ lugovoy111wowa@gmail.com</p>
-                    <p>💳 <code>4246 0010 0914 0090</code></p>
-                    <p>
-                        💳 <a href="https://next.privat24.ua/payments/form/%7B%22token%22%3A%227ce63054-8dfa-4390-8859-aa1604271dee%22%7D" target="_blank">
-                            Посилання на оплату
-                        </a>
-                    </p>
+                    <p>✉️ ser1969lug@gmail.com</p>
+                    <p class="mb-4">💳 <code>4731219648393373</code></p>
+
+                    <a href="https://t.me/+380637207136" target="_blank" class="me-3">
+                        <i class="fa-brands fa-telegram fa-2x"></i>
+                    </a>
+
+                    <a href="viber://chat?number=+380637207136" target="_blank">
+                        <i class="fa-brands fa-viber fa-2x"></i>
+                    </a>
+
+                    <!-- Иконка соцсетей для отправки -->
+                    <!-- <i id="shareBtn" class="fas fa-share-square" style="font-size: 28px; cursor: pointer;" title="Поделиться"></i> -->
                 </div>
 
-            </div>
+<!-- <script>
+document.getElementById('shareBtn').addEventListener('click', function() {
+    const url = window.location.href;
 
-        </div>
-    </div>
-
+    if (navigator.share) {
+        navigator.share({
+            title: 'Моя визитка',
+            text: 'Смотри мою визитку',
+            url: url
+        }).catch(err => console.error(err));
+    } else {
+        // Для ПК
+        prompt("Скопируй ссылку:", url);
+    }
+});
+</script> -->
 </body>
 </html>
